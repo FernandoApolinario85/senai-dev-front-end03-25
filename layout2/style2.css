@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
 
     background-color: blue;
     display: flex;
@@ -12,10 +12,10 @@ header{
     align-items: center;
     width: 100vw;
     height: 71px;
-    
+
 }
 
-.dir{
+.dir {
     color: white;
     font-size: 20px;
     margin: 10vw;
@@ -26,14 +26,14 @@ header{
 
 
 
-.esq{
-    
+.esq {
+
     display: flex;
     margin: 10vw;
     margin-left: 5px;
     align-items: center;
-    
-    
+
+
 }
 
 .esq p {
@@ -44,15 +44,21 @@ header{
     justify-content: space-between;
 
 }
+
 .imagens {
 
     display: flex;
     align-items: center;
+    justify-content: center;
     justify-content: space-between;
     margin-left: 60px;
+    margin-right: 60px;
     margin-top: 80px;
-    
-    
-   
 
+}
+
+img{
+
+    width: 35vw;
+    margin: 2vw;
 }
