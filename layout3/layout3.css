@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
+    font-family: inter;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +14,7 @@ header {
     justify-content: space-between;
     width: 100vw;
     height: 71;
-    
+
 }
 
 .esq {
@@ -26,7 +29,7 @@ header {
 
 }
 
-.dir{
+.dir {
 
     display: flex;
     /* justify-content: space-between; */
@@ -34,7 +37,7 @@ header {
     align-items: center;
 }
 
-.dir p{
+.dir p {
     font-size: 20px;
     color: white;
     margin: 10vwpx;
@@ -42,20 +45,31 @@ header {
 
 }
 
-.img-txt{
-
+.img-txt {
     margin: 20px;
-   
-
     display: flex;
-    align-items:center ;
+    /* align-items: center; */
     /* flex-direction: column; */
 
 }
-.txt{
+
+.txt {
+
     margin: 30px;
 }
-img{
+
+img {
     width: 50vw;
     height: 810px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+txt p {
+    font-size: 20px;
+    font-weight: 0px;
+
+
 }
